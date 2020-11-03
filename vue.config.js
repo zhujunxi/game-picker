@@ -1,4 +1,4 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/game-picker/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "./" : "./",
   lintOnSave: false
 }
