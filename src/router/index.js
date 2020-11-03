@@ -7,8 +7,7 @@ const routes = [
   {
     path: "/",
     name: "Index",
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/index.vue")
+    component: () => import("@/views/Index.vue")
   }
 ];
 
